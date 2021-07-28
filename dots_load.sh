@@ -41,3 +41,6 @@ cp -r $HOME/.vimrc . && echo "skopiowano pliki vima		[5/$all]"
 
 cd ..
 
+git add --all
+git commit -m 'another one!'
+
