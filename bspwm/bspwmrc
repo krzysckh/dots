@@ -29,7 +29,7 @@ $BSPWM_CONF_DIR/xreskol.sh
 
 feh --bg-fill "$WALLPAPER"
 
-cd $HOME/.config/luastatus/bspwm && luastatus-stdout-wrapper -B separator="  " title.lua lang.lua clock.lua bspwm2.lua alsa.lua | lemonbar -f"DejaVu Sans Mono Nerd Font:pixelsize=13, Noto Color Emoji:pixelsize=13" -B"$(head -n 1 $HOME/.cache/wal/colors)" -p 
+cd $HOME/.config/luastatus/bspwm && luastatus-stdout-wrapper -B separator=" " title.lua lang.lua clock.lua bspwm2.lua alsa.lua | lemonbar -f"DejaVu Sans Mono Nerd Font:pixelsize=13, Noto Color Emoji:pixelsize=13" -B"$(head -n 1 $HOME/.cache/wal/colors)" -p 
 
 
 picom --config "$PICOM_CONFIG"
