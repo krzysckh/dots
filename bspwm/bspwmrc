@@ -19,8 +19,8 @@ bspc config borderless_monocle   true
 bspc config gapless_monocle      true
 
 bspc config normal_border_color $(cat $OBO_COLORS/c1)
-bspc config active_border_color $(cat $OBO_COLORS/c7)
-bspc config focused_border_color $(cat $OBO_COLORS/c8)
+bspc config active_border_color $(cat $OBO_COLORS/c6)
+bspc config focused_border_color $(cat $OBO_COLORS/c14)
 
 $BSPWM_CONF_DIR/border-bspwm.sh
 
@@ -34,7 +34,7 @@ $BSPWM_CONF_DIR/xreskol.sh
 
 feh --bg-fill "$WALLPAPER"
 
-cd $HOME/.config/luastatus/bspwm && luastatus-stdout-wrapper -B separator=" " title.lua lang.lua clock.lua bspwm2.lua alsa.lua | lemonbar -f"DejaVu Sans Mono Nerd Font:pixelsize=13, Noto Color Emoji:pixelsize=13" -B"$(head -n 1 $HOME/.cache/wal/colors)" -p 
+cd $HOME/.config/luastatus/bspwm && luastatus-stdout-wrapper -B separator="  " title.lua lang.lua clock.lua bspwm2.lua alsa.lua | lemonbar -f"DejaVu Sans Mono Nerd Font:pixelsize=13, Noto Color Emoji:pixelsize=13" -B"$(head -n 1 $HOME/.cache/wal/colors)" -p 
 
 
 picom --config "$PICOM_CONFIG"
