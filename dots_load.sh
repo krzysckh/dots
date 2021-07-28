@@ -45,7 +45,7 @@ cd ..
 
 mkdir -p i3
 cd i3
-cp -r $HOME/.config/i3/* . && echo "skopiowano pliki i3	[6/$all]"
+cp -r $HOME/.config/i3/* . && echo "skopiowano pliki i3		[6/$all]"
 
 cd ..
 
