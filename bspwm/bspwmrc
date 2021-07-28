@@ -1,0 +1,35 @@
+#!/bin/bash
+
+BSPWM_CONF_DIR="$HOME/.config/bspwm"
+WALLPAPER="$HOME/tapety/wal.jpg"
+PICOM_CONFIG="$HOME/.config/picom/picom.conf"
+
+#=====================================#
+
+pgrep -x sxhkd > /dev/null || sxhkd &
+
+bspc monitor -d I II III IV V VI VII VIII IX X
+
+bspc config border_width         1
+bspc config window_gap          12
+
+bspc config split_ratio          0.52
+bspc config borderless_monocle   true
+bspc config gapless_monocle      true
+
+$BSPWM_CONF_DIR/border-bspwm.sh
+
+bspc rule -a state=floating follow=on
+bspc rule -a mpv state=pseudo_tiling
+bspc rule -a Screenkey manage=off
+
+setxkbmap pl
+
+$BSPWM_CONF_DIR/xreskol.sh
+
+feh --bg-fill "$WALLPAPER"
+
+cd $HOME/.config/luastatus/bspwm && luastatus-stdout-wrapper -B separator="  " title.lua lang.lua clock.lua bspwm2.lua alsa.lua | lemonbar -f"DejaVu Sans Mono Nerd Font:pixelsize=13, Noto Color Emoji:pixelsize=13" -B"$(head -n 1 $HOME/.cache/wal/colors)" -p 
+
+
+picom --config "$PICOM_CONFIG"
