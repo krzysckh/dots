@@ -2,7 +2,7 @@
 
 figlet "kopiowanie"
 
-all="5"
+all="6"
 
 # bspwm
 mkdir -p bspwm
@@ -41,8 +41,16 @@ cp -r $HOME/.vimrc . && echo "skopiowano pliki vima		[5/$all]"
 
 cd ..
 
+# i3
+
+mkdir -p i3
+cd i3
+cp -r $HOME/.config/i3/* . && echo "skopiowano pliki i3	[6/$all]"
+
+cd ..
+
+
 git add --all
 git commit -m 'another one!'
 
 onefetch
-cloc .
