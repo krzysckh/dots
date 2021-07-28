@@ -1,9 +1,5 @@
 lib = require 'lib'
 clr = require 'getcolor'
---widget = luastatus.require_plugin('pipe').widget{
---    command = 'exec bspc control --subscribe',
---    cb = lib.pager,
---}
 
 widget = {
 	plugin = 'timer',
