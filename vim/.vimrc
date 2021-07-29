@@ -21,6 +21,8 @@ let &t_EI = "\e[2 q"
 
 call plug#begin('~/.vim/plugged')
 Plug 'rrethy/vim-hexokinase', { 'do': 'make hexokinase' }
+"Plug 'vim-airline/vim-airline'
+"Plug 'vim-airline/vim-airline-themes'
 call plug#end()
 
 let g:Hexokinase_highlighters = ['backgroundfull']
