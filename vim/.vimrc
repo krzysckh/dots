@@ -1,6 +1,7 @@
 filetype plugin indent on
 
 syntax on
+so /home/krzych/.cache/wal/colors-wal.vim
 
 
 set number
@@ -27,3 +28,4 @@ call plug#end()
 
 let g:Hexokinase_highlighters = ['backgroundfull']
 
+"let g:airline_theme='monochrome'

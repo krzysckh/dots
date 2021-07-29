@@ -24,7 +24,10 @@ let &t_EI = "\e[2 q"
 
 call plug#begin('~/.config/nvim/plugged')
 Plug 'norcalli/nvim-colorizer.lua'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 call plug#end()
 
+let g:airline_theme='fruit_punch'
 
 lua require'colorizer'.setup()

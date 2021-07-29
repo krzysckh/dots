@@ -2,7 +2,7 @@
 
 figlet "kopiowanie"
 
-all="6"
+all="7"
 
 # bspwm
 mkdir -p bspwm
@@ -46,6 +46,12 @@ cd ..
 mkdir -p i3
 cd i3
 cp -r $HOME/.config/i3/* . && echo "skopiowano pliki i3		[6/$all]"
+
+cd ..
+
+mkdir -p sxhkd
+cd sxhkd
+cp -r $HOME/.config/sxhkd/* . && echo "skopiowano pliki sxhkd	[7/$all]"
 
 cd ..
 
