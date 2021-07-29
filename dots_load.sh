@@ -51,7 +51,7 @@ cd ..
 
 mkdir -p sxhkd
 cd sxhkd
-cp -r $HOME/.config/sxhkd/* . && echo "skopiowano pliki sxhkd	[7/$all]"
+cp -r $HOME/.config/sxhkd/* . && echo "skopiowano pliki sxhkd		[7/$all]"
 
 cd ..
 
