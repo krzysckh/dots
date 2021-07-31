@@ -2,7 +2,7 @@
 
 figlet "kopiowanie"
 
-all="10"
+all="11"
 
 # bspwm
 mkdir -p bspwm
@@ -81,6 +81,13 @@ cp -r $HOME/.tmux.conf . && echo "skopiowano .tmuxmconf		[10/$all]"
 
 cd ..
 
+# scripts
+
+mkdir -p scripts
+cd scripts
+cp -r $HOME/scripts . && echo "skopiowano scripts		[11/$all]"
+
+cd ..
 
 
 git add --all
