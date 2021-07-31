@@ -2,7 +2,7 @@
 
 figlet "kopiowanie"
 
-all="7"
+all="10"
 
 # bspwm
 mkdir -p bspwm
@@ -49,11 +49,38 @@ cp -r $HOME/.config/i3/* . && echo "skopiowano pliki i3		[6/$all]"
 
 cd ..
 
+# sxhkd
+
 mkdir -p sxhkd
 cd sxhkd
 cp -r $HOME/.config/sxhkd/* . && echo "skopiowano pliki sxhkd		[7/$all]"
 
 cd ..
+
+# bashrc
+
+mkdir -p bashrc
+cd bashrc
+cp -r $HOME/.bashrc . && echo "skopiowano .bashrc		[8/$all]"
+
+cd ..
+
+# inputrc
+
+mkdir  -p inputrc 
+cd inputrc
+cp -r $HOME/.inputrc . && echo "skopiowano .inputrc		[9/$all]"
+
+cd ..
+
+# .tmux.conf
+
+mkdir -p tmux
+cd tmux
+cp -r $HOME/.tmux.conf . && echo "skopiowano .tmuxmconf		[10/$all]"
+
+cd ..
+
 
 
 git add --all
