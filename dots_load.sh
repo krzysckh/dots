@@ -89,6 +89,15 @@ cp -r $HOME/scripts . && echo "skopiowano scripts		[11/$all]"
 
 cd ..
 
+# picom
+
+mkdir -p picom
+cd picom
+cp -r $HOME/.config/picom/picom.conf . && echo "skopiowano picom.conf		[12/$all]"
+
+cd ..
+
+
 
 git add --all
 git commit -m 'another one!'
