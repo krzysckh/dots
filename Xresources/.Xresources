@@ -6,7 +6,7 @@ URxvt*scrollBar: false
 URxvt*transparent: true
 URxvt*shading: 30
 !URxvt*font: xft:DejaVu Sans Mono Nerd Font:pixelsize=13, xft: Noto Color Emoji, xft: FontAwesome, xft:symbola:pixelsize=13:minispace=False
-URxvt*font: xft:DejaVu Sans Mono Nerd Font:pixelsize=13, xft: Noto Color Emoji, xft:symbola:pixelsize=13:minispace=False
+URxvt*font: xft:DejaVu Sans Mono Nerd Font:pixelsize=13, xft: Noto Color Emoji, xft:symbola:pixelsize=13:minispace=False, xft: FontAwesome, xft: DejaVu Sans Mono for Powerline:pixelsize=13
 URxvt*letterSpace: 0.5
 
 URxvt*iso14755: false
