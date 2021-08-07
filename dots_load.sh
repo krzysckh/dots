@@ -85,7 +85,7 @@ cd ..
 
 mkdir -p scripts
 cd scripts
-cp -r $HOME/scripts . && echo "skopiowano scripts		[11/$all]"
+cp -r $HOME/scripts/* . && echo "skopiowano scripts		[11/$all]"
 
 cd ..
 
