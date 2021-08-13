@@ -11,8 +11,8 @@ clear
 
 alias fserv='python3 -m http.server'
 alias rst='. /home/krzych/scripts/reset.sh'
-alias cls='printf "\033c"'
 alias clear='printf "\033c"'
+alias cls='printf "\033c"'
 alias post0='. /home/krzych/scripts/post0x0.sh'
 alias sent='sent -c $(cat $HOME/.cache/wal/onebyone/c12) -b $(cat $HOME/.cache/wal/onebyone/c1)'
 

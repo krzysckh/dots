@@ -8,6 +8,7 @@ then
 elif [ "$opt" = "restartuj" ]
 then
 	bspc wm -r
+	$HOME/scripts/xreskol.sh
 else
 	exit 69
 fi

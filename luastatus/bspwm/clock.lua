@@ -12,18 +12,18 @@ days = {
 }
 
 months = {
-    'styczeń',
-    'luty',
-    'marzec',
-    'kwiecień',
+    'sty',
+    'lut',
+    'mar',
+    'kwi',
     'maj',
-    'czerwiec',
-    'lipiec',
-    'sierpień',
-    'wrzesień',
-    'październik',
-    'listopad',
-    'grudzień',
+    'cze',
+    'lip',
+    'sie',
+    'wrz',
+    'paź',
+    'lis',
+    'gru',
 }
 
 widget = {

@@ -18,6 +18,8 @@ set autowrite		" Automatically save before commands like :next and :make
 set hidden		" Hide buffers when they are abandoned
 set termguicolors
 
+colorscheme desert
+
 let &t_SI = "\e[5 q"
 let &t_SR = "\e[4 q"
 let &t_EI = "\e[2 q"
