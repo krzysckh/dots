@@ -25,6 +25,7 @@ Plug 'rrethy/vim-hexokinase', { 'do': 'make hexokinase' }
 Plug 'mhinz/vim-startify'
 Plug 'preservim/nerdtree'
 Plug 'ryanoasis/vim-devicons'
+Plug 'voldikss/vim-floaterm'
 call plug#end()
 
 let g:Hexokinase_highlighters = ['backgroundfull']
