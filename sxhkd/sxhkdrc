@@ -4,7 +4,7 @@
 
 Print
     sleep 0.2; \
-    scrot -s $HOME/'scr/%Y-%m-%d_%H%M%S-$wx$h_scrot.png' -q 100
+    scrot -s $HOME/'scr/%Y-%m-%d_%H%M%S-$wx$h_scrot.png' -q 100 -e 'xclip -selection clipboard -target image/png -i $f'
 
 # Toggle mute
 XF86AudioMute
