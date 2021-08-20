@@ -1,0 +1,11 @@
+bashrc/* -> $HOME/
+inputrc/* -> $HOME/
+picom/* -> $HOME/.config/picom/
+scripts/* -> $HOME/scripts/
+tmux/* -> $HOME/
+Xresources/* -> $HOME/
+bspwm/* -> $HOME/.config/bspwm/
+i3/* -> $HOME/.config/i3/
+luastatus/* -> $HOME/.config/luastatus/
+sxhkd/* -> $HOME/.config/sxhkd/
+vim/* -> $HOME/
