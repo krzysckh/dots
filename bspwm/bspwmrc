@@ -35,6 +35,8 @@ feh --bg-fill "$WALLPAPER"
 pidof picom && killall -9 picom
 picom --config "$PICOM_CONFIG" -b
 
+xbanish &
+
 
 #=== to musi być na końcu!!
 cd $HOME/.config/luastatus/bspwm && luastatus-stdout-wrapper -B separator="  " title.lua lang.lua clock.lua bspwm2.lua alsa.lua | lemonbar -f"DejaVu Sans Mono Nerd Font:pixelsize=13, Noto Color Emoji:pixelsize=13, symbola:pixelsize=13" -B"$(head -n 1 $HOME/.cache/wal/colors)" -p
