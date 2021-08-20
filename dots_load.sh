@@ -2,7 +2,7 @@
 
 figlet "kopiowanie"
 
-all="11"
+all="10"
 
 # bspwm
 mkdir -p bspwm
@@ -25,66 +25,60 @@ cp -r $HOME/.Xresources . && echo "skopiowano .Xresources		[3/$all]"
 
 cd ..
 
-# nvim
-mkdir -p nvim
-cd nvim
-cp -r $HOME/.config/nvim/init.vim . && echo "skopiowano pliki nvim		[4/$all]"
-
-cd ..
 
 # vim
 mkdir -p vim
 cd vim
-cp -r $HOME/.vimrc . && echo "skopiowano pliki vima		[5/$all]"
+cp -r $HOME/.vimrc . && echo "skopiowano pliki vima		[4/$all]"
 
 cd ..
 
 # i3
 mkdir -p i3
 cd i3
-cp -r $HOME/.config/i3/* . && echo "skopiowano pliki i3		[6/$all]"
+cp -r $HOME/.config/i3/* . && echo "skopiowano pliki i3		[5/$all]"
 
 cd ..
 
 # sxhkd
 mkdir -p sxhkd
 cd sxhkd
-cp -r $HOME/.config/sxhkd/* . && echo "skopiowano pliki sxhkd		[7/$all]"
+cp -r $HOME/.config/sxhkd/* . && echo "skopiowano pliki sxhkd		[6/$all]"
 
 cd ..
 
 # bashrc
 mkdir -p bashrc
 cd bashrc
-cp -r $HOME/.bashrc . && echo "skopiowano .bashrc		[8/$all]"
+cp -r $HOME/.bashrc . && echo "skopiowano .bashrc		[7/$all]"
 
 cd ..
 
 # inputrc
 mkdir  -p inputrc 
 cd inputrc
-cp -r $HOME/.inputrc . && echo "skopiowano .inputrc		[9/$all]"
+cp -r $HOME/.inputrc . && echo "skopiowano .inputrc		[8/$all]"
 
 cd ..
 
 # .tmux.conf
 mkdir -p tmux
 cd tmux
-cp -r $HOME/.tmux.conf . && echo "skopiowano .tmuxmconf		[10/$all]"
+cp -r $HOME/.tmux.conf . && echo "skopiowano .tmuxmconf		[9/$all]"
 
 cd ..
 
 # scripts
 mkdir -p scripts
 cd scripts
-cp -r $HOME/scripts/* . && echo "skopiowano scripts		[11/$all]"
+cp -r $HOME/scripts/* . && echo "skopiowano scripts		[10/$all]"
 
 cd ..
 
 # picom
 mkdir -p picom
 cd picom
-cp -r $HOME/.config/picom/picom.conf . && echo "skopiowano picom.conf		[12/$all]"
+cp -r $HOME/.config/picom/picom.conf . && echo "skopiowano picom.conf		[11/$all]"
 
 cd ..
 
