@@ -20,7 +20,7 @@ super + Return
 
 # program launcher
 super + d
-	rofi -theme .config/roficolor -show run -modi drun,run
+	rofi -theme .config/roficolor -terminal urxvt -show run -modi drun,run
 
 # make sxhkd reload its configuration files:
 super + shift + r
