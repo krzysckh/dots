@@ -35,6 +35,8 @@ feh --bg-fill "$WALLPAPER"
 pidof picom && killall -9 picom
 picom --config "$PICOM_CONFIG" -b
 
+setxbmap pl
+
 xbanish &
 
 
