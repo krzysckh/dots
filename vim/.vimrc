@@ -25,7 +25,11 @@ Plug 'rrethy/vim-hexokinase', { 'do': 'make hexokinase' }
 Plug 'mhinz/vim-startify'
 Plug 'preservim/nerdtree'
 Plug 'ryanoasis/vim-devicons'
-Plug 'voldikss/vim-floaterm'
+Plug 'fadein/vim-FIGlet'
+Plug 'preservim/nerdcommenter'
 call plug#end()
 
 let g:Hexokinase_highlighters = ['backgroundfull']
+let g:NERDCreateDefaultMappings = 1
+
+map \f :FIGlet<CR>
