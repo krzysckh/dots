@@ -20,7 +20,8 @@ super + Return
 
 # program launcher
 super + d
-	rofi -theme .config/roficolor -terminal urxvt -show run -modi drun,run
+#	rofi -theme .config/roficolor -terminal urxvt -show run -modi drun,run
+	dmenu_run -fn "DejaVu Sans Mono:pixelsize=13" -nb "$(cat $HOME/.cache/wal/onebyone/c1)" -nf "$(cat $HOME/.cache/wal/onebyone/c2)" -sb "$(cat $HOME/.cache/wal/onebyone/c13)" -sf "$(cat $HOME/.cache/wal/onebyone/c1)"
 
 # make sxhkd reload its configuration files:
 super + shift + r
