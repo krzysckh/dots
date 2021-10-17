@@ -1,8 +1,7 @@
 filetype plugin indent on
 syntax on
-so /home/krzych/.cache/wal/colors-wal.vim
 
-set number
+set relativenumber
 set showcmd
 set mouse=a
 set showmatch		" Show matching brackets.
