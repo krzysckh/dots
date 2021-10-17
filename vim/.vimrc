@@ -27,6 +27,7 @@ Plug 'preservim/nerdtree'
 Plug 'ryanoasis/vim-devicons'
 Plug 'fadein/vim-FIGlet'
 Plug 'preservim/nerdcommenter'
+Plug 'krzysckh/turtel-vim'
 call plug#end()
 
 let g:Hexokinase_highlighters = ['backgroundfull']
