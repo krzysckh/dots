@@ -18,6 +18,3 @@ URxvt*perl-ext-common: default,keyboard-select,resize-font
 
 URxvt.url-select.launcher: firefox
 URxvt.url-select.underline: true
-
-
-URxvt.keysym.Control-l: command:\033c
