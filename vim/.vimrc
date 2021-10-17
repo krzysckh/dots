@@ -27,9 +27,15 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'fadein/vim-FIGlet'
 Plug 'preservim/nerdcommenter'
 Plug 'krzysckh/turtel-vim'
+Plug 'mhinz/vim-halo'
 call plug#end()
 
 let g:Hexokinase_highlighters = ['backgroundfull']
 let g:NERDCreateDefaultMappings = 1
 
 map \f :FIGlet<CR>
+map \tree :NERDTreeToggle<CR>
+map \term :tabnew<CR>:term<CR><C-w>jZQ
+
+map \\ :call halo#run({'shape':'line'})<CR>
+
