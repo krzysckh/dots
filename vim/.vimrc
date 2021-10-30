@@ -29,15 +29,19 @@ Plug 'preservim/nerdcommenter'
 Plug 'krzysckh/turtel-vim'
 Plug 'mhinz/vim-halo'
 Plug 'tc50cal/vim-terminal'
+Plug 'yuratomo/w3m.vim'
 call plug#end()
 
 let g:Hexokinase_highlighters = ['backgroundfull']
 let g:NERDCreateDefaultMappings = 1
 
+let g:w3m#homepage = 'https://lite.duckduckgo.com/lite'
+
 map \f :FIGlet<CR>
 map \tree :NERDTreeToggle<CR>
 map \tterm :tabnew<CR>:Terminal bash<CR>
 map \term :tabnew<CR>:term<CR><C-w>jZQ
+map \w3m :tabnew<CR>:W3m<CR>
 
 map \\ :call halo#run({'shape':'line'})<CR>
 
