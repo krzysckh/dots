@@ -42,7 +42,7 @@ let g:w3m#homepage = 'https://lite.duckduckgo.com/lite'
 
 " startify
 let g:startify_custom_header = 
-	\ startify#pad(split(system('figlet -w 100 -f speed vim'), '\n'))
+	\ startify#pad(split(system('figlet -w $(tput cols) -c -f speed vim'), '\n'))
 
 let g:startify_lists = [
 			\ { 'type': 'files', 'header': ['recent'] },
