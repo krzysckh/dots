@@ -58,7 +58,7 @@ let g:NERDCreateDefaultMappings = 1
 " own mappings
 
 map \f :FIGlet<CR>
-map \tn :tabnew<CR>
+map \new :tabnew<CR>
 map \tree :NERDTreeToggle<CR>
 map \tterm :tabnew<CR>:Terminal bash<CR>
 map \term :tabnew<CR>:term<CR><C-w>jZQ
