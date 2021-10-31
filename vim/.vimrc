@@ -42,6 +42,7 @@ map \f :FIGlet<CR>
 map \tree :NERDTreeToggle<CR>
 map \tterm :tabnew<CR>:Terminal bash<CR>
 map \term :tabnew<CR>:term<CR><C-w>jZQ
+map \todo :tabnew<CR>:e ~/todo<CR>
 map \w3m :tabnew<CR>:W3m<CR>
 map \s :Startify<CR>
 
