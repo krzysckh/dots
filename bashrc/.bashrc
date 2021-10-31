@@ -9,6 +9,7 @@ alias clear='printf "\033c"'
 alias cls='if [ "$TERM" = "vt100" ] ; then ( /bin/clear ) ; else (printf "\033c") ; fi'
 alias post0='. /home/krzych/scripts/post0x0.sh'
 alias sent='sent -c $(cat $HOME/.cache/wal/onebyone/c12) -b $(cat $HOME/.cache/wal/onebyone/c1)'
+alias pacman='pacman --color=auto'
 
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
