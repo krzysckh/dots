@@ -34,6 +34,7 @@ Plug 'krzysckh/turtel-vim'
 Plug 'mhinz/vim-halo'
 Plug 'tc50cal/vim-terminal'
 Plug 'yuratomo/w3m.vim'
+Plug 'theniceboy/vim-calc'
 call plug#end()
 
 " w3m
@@ -65,5 +66,6 @@ map \term :tabnew<CR>:term<CR><C-w>jZQ
 map \todo :tabnew<CR>:e ~/todo<CR>
 map \w3m :tabnew<CR>:W3m<CR>
 map \s :Startify<CR>
+map \e :call Calc()<CR>
 
 map \\ :call halo#run({'shape':'line'})<CR>
