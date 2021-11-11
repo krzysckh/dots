@@ -35,6 +35,9 @@ Plug 'mhinz/vim-halo'
 Plug 'tc50cal/vim-terminal'
 Plug 'yuratomo/w3m.vim'
 Plug 'theniceboy/vim-calc'
+Plug 'mattpenney89/vimify'
+Plug 'itchyny/calendar.vim'
+Plug 'ashisha/image.vim'
 call plug#end()
 
 " w3m
@@ -55,6 +58,7 @@ let g:startify_lists = [
 let g:Hexokinase_highlighters = ['backgroundfull']
 let g:NERDCreateDefaultMappings = 1
 
+let g:spotify_token = readfile('/home/krzych/wazeniguess/spt_token')[0]
 
 " own mappings
 
@@ -65,7 +69,10 @@ map \tterm :tabnew<CR>:Terminal bash<CR>
 map \term :tabnew<CR>:term<CR><C-w>jZQ
 map \todo :tabnew<CR>:e ~/todo<CR>
 map \w3m :tabnew<CR>:W3m<CR>
-map \s :Startify<CR>
+map \start :Startify<CR>
 map \e :call Calc()<CR>
+map \json :%!python3 -m json.tool<CR>
+map \spt :call feedkeys(':SpSearch ' . input("gib search term: "))<CR>
+map \cal :Calendar<CR>
 
 map \\ :call halo#run({'shape':'line'})<CR>
