@@ -1,6 +1,8 @@
 filetype plugin indent on
 syntax on
 
+"so ~/scripts/colorscheme.vim
+
 set relativenumber
 set showcmd
 set mouse=a
@@ -11,7 +13,9 @@ set incsearch		" Incremental search
 set autowrite		" Automatically save before commands like :next and :make
 set hidden		" Hide buffers when they are abandoned
 
-set termguicolors
+" set termguicolors
+" i think it should be like that. i don't have a script that generates vim
+" colorschemes for me (yet), so it's a rather temporary thing ;)
 
 set encoding=UTF-8
 
@@ -38,6 +42,15 @@ Plug 'theniceboy/vim-calc'
 Plug 'mattpenney89/vimify'
 Plug 'itchyny/calendar.vim'
 Plug 'ashisha/image.vim'
+Plug 'leafo/moonscript-vim'
+
+" IDE moment
+Plug 'prabirshrestha/async.vim'
+Plug 'prabirshrestha/vim-lsp'
+Plug 'prabirshrestha/asyncomplete.vim'
+Plug 'prabirshrestha/asyncomplete-lsp.vim'
+Plug 'mattn/vim-lsp-settings'
+Plug 'ajh17/vimcompletesme'
 call plug#end()
 
 " w3m
